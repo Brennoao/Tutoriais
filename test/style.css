@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--Grey1);
+}
+
+header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.4em 3em;
+    width: 100%; height: auto;
+    background: var(--Grey1);
+    margin: 0 0 2em 0;
+}
+
+.Logo {
+    width: 5.5em;
+}
+
+.Links {
+    display: flex; gap: 1em; align-items: center;
+}
+
+.linkInside {
+    text-decoration: none; color: var(--Vine); font-size: 1.3em;
+}
+
+.Blog {
+    padding: 0.4em 0.8em;
+    background: var(--Vine);
+    border-radius: 5px;
+    color: var(--Grey1);
+}
+
+main {
+    display: flex; flex-direction: column;
+    padding: 0.4em 3em;
+    width: 100%;
+    
+}
+
+.Girl {
+    display: flex;
+}
+
+.Text {
+    display: flex; flex-direction: column; gap: 1em; justify-content: center; align-items: center;
+    max-width: 60%; height: 40em;
+    /* background-color: black; */
+}
+
+.textGirl {
+    /* display: flex; flex-direction: column; */
+    font-size: 4.7em;
+}
+
+.photoGirl {
+    width: 40%; height: auto;
+    box-shadow: 0 0 20px black;
+}
